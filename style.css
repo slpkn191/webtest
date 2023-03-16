@@ -1,0 +1,99 @@
+/*{
+	overflow: hidden;
+}*/
+.test{
+	text-align: center;
+	background-color: white;
+	margin-left: 0;
+	float: bottom;
+}
+body {
+	background-image: url("feelsbadman-pepe-meme-memes-wallpaper-preview.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+.nav-pills{
+	background-color: black;
+}
+form{
+	width: 400px;
+	transition: width 1s;
+
+}
+input:focus{
+	width: fit-content;
+}
+
+.info1 {
+  /*width: 49%;
+  padding: 100px;
+  padding: 15% 0 10% 0;
+  margin-left: 10%;*/
+  color: white ;
+  text-align: center;
+}
+.info4 {
+  width: 100%;
+  padding: 7vh 50% 7vh 5%;
+  color: white ;
+  margin:0; 
+  text-align: center;
+}
+.achievement_image{
+  width: 100%;
+  height: 225px;
+  object-fit: cover;
+}
+
+.container1{
+	margin-right: 15%;
+	margin-left: 5%;
+}
+.info1_1{
+ line-height:2;
+}
+.logopepe{
+	height: 10%;
+	width: 10%;
+}
+/*.menu_list{
+	float:right;
+	
+}*/
+footer{
+	float: bottom;
+	width: 100%;
+	background-color: white;
+}
+
+
+
+
+
+
+@media (max-width: 800px){
+	.info1 {
+		width: auto;
+		padding: 0px;
+  		padding: 0% 0 0% 0;
+		border:5px solid black;
+  		margin: 0;
+  		text-align: center;
+	}
+	.info4 {
+		text-align: center;
+		padding: 0;
+	}
+	.logopepe{
+		float:center;
+	}
+	.container1{
+		margin-right: 3%;
+		margin-left:  3%;
+	}
+	input:focus{
+	width: 100%;
+}
+}
